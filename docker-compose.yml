@@ -1,0 +1,17 @@
+
+services:
+  mybot:
+    image: trading-bot:latest
+    container_name: mybot
+    restart: always
+    environment:
+      TZ: Asia/Shanghai
+      BINANCE_API_KEY: ${BINANCE_API_KEY}
+      BINANCE_API_SECRET: ${BINANCE_API_SECRET}
+      EMAIL_USER: ${EMAIL_USER}
+      EMAIL_PASS: ${EMAIL_PASS}
+      EMAIL_TO: ${EMAIL_TO}
+      SMTP_HOST: ${SMTP_HOST:-smtp.qq.com}
+      SMTP_PORT: ${SMTP_PORT:-465}
+    # 如果你要固定时区，也可加：
+

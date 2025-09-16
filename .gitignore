@@ -1,0 +1,22 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.env
+*.log
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Data / Output
+*.csv
+*.png
+out/
+equity_long_short.png
+
+# Docker
+*.tar
