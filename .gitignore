@@ -1,22 +1,9 @@
-﻿# Python
+﻿.env
+logs/
 __pycache__/
-*.py[cod]
-*.egg-info/
-.venv/
-.env
+*.pyc
+*.pyo
+*.pyd
 *.log
-
-# IDE / OS
-.idea/
-.vscode/
-.DS_Store
-Thumbs.db
-
-# Data / Output
-*.csv
-*.png
-out/
-equity_long_short.png
-
-# Docker
-*.tar
+dist/
+build/
